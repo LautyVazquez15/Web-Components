@@ -4,7 +4,7 @@ function agregarHeader(cascaronVacio){
     const template = `
         <header class="header">
                 <a href="index.html">
-                <img class="header__img"
+                <img class="../../assets/header__img"
                     src="assets/logo.png"
                     alt="logo">
                 </a>
