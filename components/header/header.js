@@ -5,7 +5,7 @@ function agregarHeader(cascaronVacio){
         <header class="header">
                 <a href="index.html">
                 <img class="header__img"
-                    src="../../assets/logo.png"
+                    src="assets/logo.png"
                     alt="logo">
                 </a>
                 <nav class="header__nav">
