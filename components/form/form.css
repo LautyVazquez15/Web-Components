@@ -1,0 +1,110 @@
+/*----------------Form-----------------------*/
+.contactform {
+    color: #eee;
+    background-color: #192130;
+    padding: 79px 0 120px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media(width > 1080px){
+    .contactform{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        justify-content: space-around;
+    }
+}
+
+.contactform__content {
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactform__title {
+    margin: 0;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+}
+@media(width > 1080px){
+    .inputs-container{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+}
+
+.contactform__inputs {
+    color: #eee;
+    min-width: 313px;
+    height: 59px;
+    border: none;
+    border-radius: 16px;
+    background-color: #393E4680;
+    padding-left: 24px;
+    font-size: 18px;
+    font-weight: 400;
+}
+@media(width > 1080px){
+    .contactform__inputs{
+        min-width: 288px;
+    }
+}
+
+.contactform__inputs::placeholder {
+    font-size: 18px;
+    font-size: 700;
+}
+
+.contactform__textarea {
+    height: 280px;
+    min-height: 59px;
+    padding: 15px;
+}
+@media(width > 1080px){
+    .contactform__textarea{
+        width: 600px;
+    }
+}
+
+.contactform__textarea::-webkit-resizer {
+    display: none;
+}
+
+.contactform__button {
+    width: 100%;
+    height: 55px;
+    border-radius: 40px;
+    margin-top: 25px;
+    background-color: #00ADB5;
+    font-size: 18px;
+    font-weight: 700;
+    transition: transform 0.5s;
+}
+.contactform__button:hover{
+    transform: scale(1.1);
+}
+
+@media(width > 1080px){
+    .contactform__button{
+        width: 251px;
+        justify-self: start;
+        align-self: start;
+        margin-left: 0;
+    }
+}

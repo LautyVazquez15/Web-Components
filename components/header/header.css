@@ -1,0 +1,134 @@
+.header {
+    height: 121px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+    background-color: #13171c;
+    color: #eee;
+}
+
+.header__img {
+    margin-top: 10px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    border: 1px solid #eee;
+    transition: 0.5s;
+}
+.header__img:hover{
+    filter: brightness(70%);
+}
+
+/*Barra Menu*/
+.menu__button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 45px;
+    margin-top: 37px;
+    width: 45px;
+    height: 45px;
+    background: none;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media(width > 720px) {
+    .menu__button {
+        display: none;
+    }
+}
+
+
+.bar {
+    background-color: #fff;
+    width: 100%;
+    height: 15%;
+    border-radius: 5px;
+
+}
+
+@media(width > 720px) {
+    .header__menu {
+        display: none;
+    }
+}
+.header__menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.menu__li {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5px 30px 20px 30px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #eee;
+}
+
+
+/*----------------Nav-----------------------*/
+.header__nav {
+    display: none;
+    height: 33%;
+}
+
+@media(width > 720px) {
+    .header__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menuBar {
+        display: none;
+    }
+}
+
+.nav__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 45px;
+    list-style: none;
+}
+
+.nav__ul__li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #eee;
+    padding: 10px;
+    transition: 0.1s;
+}
+.nav__ul__li a:hover{
+    background-color: #222932;
+    color: #fff;
+    border: 1px #eee;
+    border-style: ridge;
+    border-radius: 10px;
+}

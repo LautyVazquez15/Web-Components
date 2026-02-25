@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+/*--------------Bienvenida a la web---------------*/
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #13171c;
+    border: none;
+    padding: 150px;
+}
+@media(width > 900px){
+    .welcome{
+        flex-direction: row;
+        justify-content: space-around;
+        border: none;
+    }
+} 
+
+.welcome__title{
+    font-size: 60px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #eee;
+    border: none;
+    margin: 0;
+}
+@media(width > 900px){
+    .welcome__title{
+        font-size: 96px;
+        text-align: start;
+    }
+}
+
+.highlighter{
+    color:  #1c74d3;
+    margin: 0;
+}
+
+.welcome__img{
+    width: 219px;
+    height: 211px;
+}
+@media(width > 900px){
+    .welcome__img{
+        width: 353px;
+        height: 340px;
+    }
+}
+
+/*--------------Seccion de servicios---------------*/
+.portfolio__title{
+    color: aliceblue; 
+    text-align: center; 
+    font-size: 47px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 66px;
+    padding-top: 54px;
+}
+.portfolio__shelled{
+    background-image: url(/assets/background.jpg); 
+    background-attachment: fixed; 
+    background-size: cover;
+}

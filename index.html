@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Estilos de cada components -->
+    <link rel="stylesheet" href="/pages/home/index.css">
+    <link rel="stylesheet" href="/components/header/header.css">
+    <link rel="stylesheet" href="/components/form/form.css">
+    <link rel="stylesheet" href="/components/footer/footer.css">
+    <link rel="stylesheet" href="/components/card/card.css">
+
+    <!-- Funciones relacionadas a los components (agregar, acciones, etc) -->
+    <script src="/components/header/header.js"></script>
+    <script src="/components/services/services.js"></script>
+    <script src="/components/card/card.js"></script>
+    <script src="/components/form/form.js"></script>
+    <script src="/components/footer/footer.js"></script>
+
+    <script defer src="/pages/home/index.js"></script>
+    <script defer src="/components/header/button.js"></script>
+    <script defer src="/components/form/menu.js"></script>
+
+    <title>Home</title>
+</head>
+
+<body>
+    
+    <section class="header__shelled">
+        <!--Contenedor del header del home -->
+    </section>
+
+    <!-- Todo esta dentro de este contenedor para que el menu del header pueda funcionar -->
+    <div class="main__conteiner">
+        <section class="welcome">
+            <!--Contenedor del header del home-->
+            <h2 class="welcome__title">Hola <span class="highlighter">Soy Lautaro</span></h2>
+            <img class="welcome__img" src="/assets/home.png" alt="">
+        </section>
+        <section class="presentation">
+            <div class="texts">
+                <h2 class="presentation__title">Mi Perfil</h2>
+                <p class="presentation__text">Soy desarrollador full-Stack y estudiante de Sistemas. Me apasiona la tecnologia y el avance que podemos lograr mediante su uso. En este momento me encuentro en crecimiento profesional, adquiriendo y perfeccionando las habilidades que necesito para el desarrollo de proyectos. </p>
+            </div>
+            <img class="presentation__img" src="/assets/presentacion.png" alt="">
+        </section>
+    
+        <section class="services__shelled">
+            <h2 class="services__title">Mis <span class="highlighter">servicios</span></h2>
+            <div class="cards-container">
+            </div>
+        </section>
+    
+        <section class="form__shelled">
+            <!--Contenedor del header del home -->
+        </section>
+    
+        <section class="footer__shelled">
+            <!--Contenedor del header del home -->
+        </section>
+    </div> 
+
+</body>
+
+</html>
