@@ -5,23 +5,23 @@ function agregarFooter(cascaronVacio) {
             <footer class="footer">
             <div class="links">
                 <div class="navegacion">      
-                    <a class="icon__text" href="/index.html">
+                    <a class="icon__text" href="index.html">
                         <span>Home</span>
                     </a>
                     <span>|</span>
-                    <a class="icon__text" href="/pages/services/indexServices.html">
+                    <a class="icon__text" href="pages/services/indexServices.html">
                         <span>Servicios</span>
                     </a>
                     <span>|</span>
-                    <a class="icon__text" href="/pages/contact/indexContact.html">
+                    <a class="icon__text" href="pages/contact/indexContact.html">
                         <span>Contacto</span>   
                     </a>        
                 </div>
             </div>
             <div class="redes">
-                <img class="redes__img" src="/assets/gitHub.png" alt="">
-                <img class="redes__img" src="/assets/twitter.png" alt="">
-                <img class="redes__img" src="/assets/linkedin.png" alt="">
+                <img class="redes__img" src="assets/gitHub.png" alt="">
+                <img class="redes__img" src="assets/twitter.png" alt="">
+                <img class="redes__img" src="assets/linkedin.png" alt="">
             </div>
         </footer> 
     `
