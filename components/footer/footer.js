@@ -19,9 +19,9 @@ function agregarFooter(cascaronVacio) {
                 </div>
             </div>
             <div class="redes">
-                <img class="redes__img" src="../../assets/gitHub.png" alt="">
-                <img class="redes__img" src="../../assets/twitter.png" alt="">
-                <img class="redes__img" src="../../assets/linkedin.png" alt="">
+                <img class="redes__img" src="assets/gitHub.png" alt="">
+                <img class="redes__img" src="assets/twitter.png" alt="">
+                <img class="redes__img" src="assets/linkedin.png" alt="">
             </div>
         </footer> 
     `
