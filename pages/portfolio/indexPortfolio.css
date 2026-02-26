@@ -66,7 +66,7 @@ body{
     padding-top: 54px;
 }
 .portfolio__shelled{
-    background-image: url(assets/background.jpg);
+    background-image: url(../../assets/background.jpg);
     background-attachment: fixed; 
     background-size: cover;
 }
